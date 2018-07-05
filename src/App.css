@@ -1,0 +1,81 @@
+/* id: identifier
+    #
+*/
+/* 
+    class
+    .
+*/
+/* 
+    html tag
+*/
+
+html, body, #root{
+    height: 90%;
+}
+
+body{
+    background: #e34535;
+    
+}
+
+.App{
+    margin: 10% 2% 5% 2%;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    height: 80%;
+
+}
+
+.leftComponent{
+    background :url('https://cdn20.patchcdn.com/users/119085/20180424/090650/styles/T800x600/public/processed_images/sunset_riverhead_long_island_sound_new_york_patch_lisa_finn-1524617957-8874.jpg') no-repeat;
+    grid-column: 1;
+    grid-row: 1;
+
+}
+input, .rightComponent{
+    background: #253544;
+    grid-column: 2;
+    grid-row: 1;
+    
+}
+
+button{
+    background: #ee5447;
+    color: white ;
+    padding: 12px;
+    border-radius: 10px;
+    margin-left: 12px;
+}
+input{
+    color: white;
+    padding: 12px;
+    margin: 4px;
+}
+
+#nirajan * {
+    color: white;
+    font-size: 24px;
+}
+
+.leftComponent,.rightComponent{
+    padding: 60px;
+}
+
+.font-big{
+    text-align: center;
+}
+
+
+.title{
+    font-size: 60px;
+}
+
+.titleComponentSubBody{
+    font-size: 25px;
+}
+
+input, button{
+    border: none;
+    border-bottom: 1px solid #ee5447;
+}
+
